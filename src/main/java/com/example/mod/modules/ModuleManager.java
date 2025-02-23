@@ -20,6 +20,7 @@ public class ModuleManager {
         registerModule(new InventoryWalk());
         registerModule(new SelfDestruct());
         registerModule(new HitBox());
+        registerModule(new FakePlayer());
     }
 
     public void registerModule(Module module) {
