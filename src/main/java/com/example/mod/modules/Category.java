@@ -3,22 +3,22 @@ package com.example.mod.modules;
 import com.example.mod.modules.obf.ObfuscatedFragment;
 
 public enum Category {
-    KCH(new ObfuscatedFragment[]{ // КОМБАТ
+    KCH(new ObfuscatedFragment[]{ // combat
             new ObfuscatedFragment("Com"),
             new ObfuscatedFragment("b"),
             new ObfuscatedFragment("at")
     }),
-    BAY(new ObfuscatedFragment[]{ // ВИЗУАЛС
+    BAY(new ObfuscatedFragment[]{ // visuals
             new ObfuscatedFragment("Vis"),
             new ObfuscatedFragment("u"),
             new ObfuscatedFragment("als")
     }),
-    BEG(new ObfuscatedFragment[]{ // МУВМЕНТ
+    BEG(new ObfuscatedFragment[]{ // movement
             new ObfuscatedFragment("Mov"),
             new ObfuscatedFragment("e"),
             new ObfuscatedFragment("ment")
     }),
-    OST(new ObfuscatedFragment[]{ // МИСК
+    OST(new ObfuscatedFragment[]{ // misc
             new ObfuscatedFragment("Mi"),
             new ObfuscatedFragment("s"),
             new ObfuscatedFragment("c")
