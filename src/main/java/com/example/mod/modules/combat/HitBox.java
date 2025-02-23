@@ -40,15 +40,15 @@ public class HitBox extends ObfuscatedModule {
             return;
         }
         float size = expand.getValue();
-        Entity target = event.getPlayer();
+        Entity entityPlayer = event.getPlayer();
         AxisAlignedBB newBB = new AxisAlignedBB(
-                target.getPosX() - size,
-                target.getBoundingBox().minY,
-                target.getPosZ() - size,
-                target.getPosX() + size,
-                target.getBoundingBox().maxY,
-                target.getPosZ() + size
+                entityPlayer.getPosX() - size,
+                entityPlayer.getBoundingBox().minY,
+                entityPlayer.getPosZ() - size,
+                entityPlayer.getPosX() + size,
+                entityPlayer.getBoundingBox().maxY,
+                entityPlayer.getPosZ() + size
         );
-        target.setBoundingBox(newBB);
+        entityPlayer.setBoundingBox(newBB);
     }
 }
