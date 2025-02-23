@@ -1,1 +1,1 @@
-"# GhostClient-1.16.5" 
+# GhostClient-1.16.5
